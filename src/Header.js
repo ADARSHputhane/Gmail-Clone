@@ -5,8 +5,8 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
+import { Avatar, IconButton } from "@mui/material";
 import "./Header.css";
-import { IconButton } from "@mui/material";
 
 const Header = () => {
   return (
@@ -29,6 +29,10 @@ const Header = () => {
         <IconButton>
           <AppsIcon />
         </IconButton>
+        <IconButton>
+          <NotificationsNoneIcon />
+        </IconButton>
+        <Avatar />
       </div>
     </div>
   );
